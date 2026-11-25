@@ -9,7 +9,7 @@ def countGrades():
 
     while True:
         try:
-            count = int(input("How many grades will you input?"))
+            count = int(input("How many grades will you input? "))
             if count > 0:
                 break
             print("---Please enter a whole number greater than 0---")
